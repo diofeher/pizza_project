@@ -16,3 +16,9 @@ Pizza API
 ```
 
 You can see a lot of endpoint interactions on `tests.sh` file.
+
+4) Use the following command to test the app:
+
+```
+    python manage.py test
+```
