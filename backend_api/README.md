@@ -1,12 +1,14 @@
 Pizza API
 ----------
-To install the dependencies:
+1) Install the dependencies:
 
 ```
     pip3 install -r pip_requirements.txt
 ```
 
-To setup the project:
+2) Create a database called `pizza_api` in your Postgres instance.
+
+3) Setup the project:
 ```
     POSTGRES_USER=<your_postgres_username>
     POSTGRES_PWD=<your_postgres_password>
