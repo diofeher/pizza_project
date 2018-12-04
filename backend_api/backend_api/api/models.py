@@ -17,7 +17,7 @@ class Order(models.Model):
     customer_name = models.CharField(max_length=32)
     customer_address = models.CharField(max_length=100)
     pizza = models.ForeignKey(Pizza, on_delete=models.DO_NOTHING)
-    description = models.TextField()
+    description = models.TextField(blank=True)
     size = models.IntegerField(choices=PIZZA_SIZES, default=30)
 
     class Meta:
