@@ -12,6 +12,8 @@ PIZZA_SIZES = (
     (30, '30cm'),
     (50, '50cm')
 )
+
+
 class Order(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     customer_name = models.CharField(max_length=32)
